@@ -15,9 +15,6 @@ void check(char n){
       cout << "digit" << endl;
     }else
     cout << "spcial ch." << endl;
-    
-    
-    
 }
 int main() {
     char n;
