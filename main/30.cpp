@@ -4,11 +4,10 @@
 using namespace std;
 void reverse(int n){
     int r = 0;
-    for (int i = 0; i < n; i++)
+    while(n>0)
     {
     int ld = n % 10 ;
-     r = r*10;
-    r=r+ld;
+    r= (r*10) + ld ;
     n/=10;
     }
     cout << r ;
