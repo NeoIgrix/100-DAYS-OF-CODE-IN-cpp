@@ -12,13 +12,12 @@ void palindrome(int n){
     r= (r*10) + ld ;
     n/=10;
     }
-    cout << r ;
-    
+
     if (original == r)
     {
-        cout << "  palindrome" << endl;
+        cout << "palindrome" << endl;
     }else
-    cout << "  invalid";
+    cout << "invalid";
 }
 int main() {
     int n;
