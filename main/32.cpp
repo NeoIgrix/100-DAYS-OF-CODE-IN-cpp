@@ -4,7 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 void palindrome(int n){
-    int original = n;
+    int original = n;//most imp
     int r = 0;
     while(n>0)
     {
