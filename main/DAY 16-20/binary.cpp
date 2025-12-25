@@ -29,3 +29,26 @@ int main() {
     binary(n);
     return 0;
 }
+/*#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    string bin = "";
+
+    if (n == 0) {
+        bin = "0";
+    }
+
+    while (n != 0) {
+        int rem = n % 2;
+        bin = char(rem + '0') + bin;  // prepend
+        n /= 2;
+    }
+
+    cout << bin;
+    return 0;
+}
+*/
