@@ -19,7 +19,7 @@ int main() {
     factor(n);
     return 0;
 }
-/*#include <iostream> // faster version
+/*#include <iostream> //faster
 using namespace std;
 
 int main() {
